@@ -64,7 +64,7 @@ void SP2::Init()
 	glUniform1i(m_parameters[U_NUMLIGHTS], 1);
 
 	//Initialize camera settings
-	camera.Init(Vector3(0, 0, 60), Vector3(0, 0, 0), Vector3(0, 1, 0));
+	camera.Init(Vector3(0, 0, 0.1), Vector3(0, 0, 0), Vector3(0, 1, 0));
 	
 	//cl check
 	double plX = camera.position.x;

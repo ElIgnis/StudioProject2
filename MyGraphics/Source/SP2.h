@@ -10,7 +10,10 @@
 #include "Utility.h"
 #include <sstream>
 #include <fstream>
+#include <string>
 #include <iostream>
+
+using std::string;
 
 class SP2: public Scene
 {
