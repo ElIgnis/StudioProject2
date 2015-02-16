@@ -1,4 +1,6 @@
 *.sdf
-/ipch/
+*.suo
+*.log
+
 Debug/
 Release/
