@@ -10,7 +10,6 @@
 #include "Vertex.h"
 #include "LoadTGA.h"
 
-//TEST
 SP2::SP2()
 {
 }
@@ -180,7 +179,7 @@ static float SCALE_LIMIT = 5.f;
 
 void SP2::Update(double dt)
 {
-	if(Application::IsKeyPressed('1')) //enable back face culling
+	if(Application::IsKeyPressed('5')) //enable back face culling
 		glEnable(GL_CULL_FACE);
 	if(Application::IsKeyPressed('2')) //disable back face culling
 		glDisable(GL_CULL_FACE);
