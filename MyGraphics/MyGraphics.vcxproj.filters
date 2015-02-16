@@ -77,6 +77,12 @@
     <ClCompile Include="Source\VillainState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VillainAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h">
@@ -137,6 +143,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\VillainState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VillainAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardAI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
