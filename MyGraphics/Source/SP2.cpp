@@ -10,6 +10,7 @@
 #include "Vertex.h"
 #include "LoadTGA.h"
 
+//TEST
 SP2::SP2()
 {
 }
