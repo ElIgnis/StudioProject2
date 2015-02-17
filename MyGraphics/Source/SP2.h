@@ -64,6 +64,22 @@ private:
 		GEO_AXES,
 		GEO_QUAD,
 		GEO_TEXT,
+		GEO_FRONT,
+		GEO_BACK,
+		GEO_LEFT,
+		GEO_RIGHT,
+		GEO_TOP,
+		GEO_BOTTOM,
+		GEO_WALL,
+		//GEO_FLOOR,
+		//GEO_CEILING,
+		GEO_COLDSHELVE,
+		Geo_TROLLEY,
+		GEO_DOORMAN,
+		GEO_STANDER,
+		GEO_SHELF,
+		GEO_REFRIDGE,
+		GEO_THIRDSHELF,
 		NUM_GEOMETRY,
 	};
 
@@ -97,6 +113,9 @@ private:
 	int count;
 
 	bool toggleLight;
+
+	void RenderSkyBox();
+	void RenderObject();
 
 	void RenderMesh(Mesh *mesh, bool enableLight);
 
